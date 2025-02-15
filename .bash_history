@@ -242,3 +242,211 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 docker --version
 docker ps
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "Tehila Alkoby"
+git config --global user.email "teila6754@gmail.com"
+git config --global user.name Tehila Alkoby
+git config --global user.email your.email@example.com
+git config --global user.email teila6754.com
+it config --global user.email teila6754@gmail.com
+git config --global user.email teila6754@gmail.com
+git config --get-all user.name Tehila Alkoby
+git config --get-all user.name
+git config --get-all user.email
+git init
+git status
+git diff
+git difftool --tool=<tool_name>
+git add <file_path>
+git add.
+git status
+git add .
+git status
+mkdir git-task-local
+clear
+cd git-task-local
+git init
+ls -a
+ls .git
+echo "זהו קובץ טקסט לדוגמה" > file.txt
+echo "hello" > file.txt
+git status
+git add file.txt
+git status
+"git commit -m commit first file.txt"
+echo "addinig more line"
+git add file.txt
+git add file2.txt
+git commit -m commit " file2.txt"
+git status
+echo "addinig more line">file2.txt
+git status
+git commit -m "commint file2.txt"
+git status
+git add file2.txt
+git status
+git log
+cd~
+cd ~
+touch .gitignore
+nano .gitignore
+git status
+root@DESKTOP-IN2P6D4:~# cd git-task-local
+root@DESKTOP-IN2P6D4:~/git-task-local# git init
+Initialized empty Git repository in /root/git-task-local/.git/
+root@DESKTOP-IN2P6D4:~/git-task-local# ls -a
+.  ..  .git
+root@DESKTOP-IN2P6D4:~/git-task-local# ls .git
+HEAD  branches  config  description  hooks  info  objects  refs
+root@DESKTOP-IN2P6D4:~/git-task-local# echo "זהו קובץ טקסט לדוגמה" > file.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# echo "hello" > file.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+No commits yet
+Untracked files:
+nothing added to commit but untracked files present (use "git add" to track)
+root@DESKTOP-IN2P6D4:~/git-task-local# git add file.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+No commits yet
+Changes to be committed:
+root@DESKTOP-IN2P6D4:~/git-task-local# "git commit -m commit first file.txt"
+git commit -m commit first file.txt: command not found
+root@DESKTOP-IN2P6D4:~/git-task-local# echo "addinig more line"
+addinig more line
+root@DESKTOP-IN2P6D4:~/git-task-local# git add file.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git add file2.txt
+fatal: pathspec 'file2.txt' did not match any files
+root@DESKTOP-IN2P6D4:~/git-task-local# git commit -m commit " file2.txt"
+error: pathspec ' file2.txt' did not match any file(s) known to git
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+No commits yet
+Changes to be committed:
+root@DESKTOP-IN2P6D4:~/git-task-local# echo "addinig more line">file2.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+No commits yet
+Changes to be committed:
+Untracked files:
+root@DESKTOP-IN2P6D4:~/git-task-local# git commit -m "commint file2.txt"
+[master (root-commit) 253a185] commint file2.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+Untracked files:
+nothing added to commit but untracked files present (use "git add" to track)
+root@DESKTOP-IN2P6D4:~/git-task-local# git add file2.txt
+root@DESKTOP-IN2P6D4:~/git-task-local# git status
+On branch master
+Changes to be committed:
+root@DESKTOP-IN2P6D4:~/git-task-local# git log
+commit 253a1854c31b4b12a9987746b3346dc10ec1e4a1 (HEAD -> master)
+Author: Tehila <teila6754@gmail.com>
+Date:   Sun Feb 9 15:20:29 2025 +0200
+root@DESKTOP-IN2P6D4:~/git-task-local#
+git status
+# 1. צור תיקייה חדשה והיכנס אליה
+mkdir git-task-local
+cd git-task-local
+# 2. אתחל מאגר Git חדש בתיקייה
+git init
+ls -a
+ls .git
+ls.git
+echo "awretecvh" > file.txt
+git status
+git add file.txt
+git status
+git commit -m "Commit ראשון עם file.txt"
+git status
+cd ~
+touch .gitignore
+nano.gitignore
+touch.gitignore
+nano.gitignore
+touch .gitignore
+nano .gitignore
+git status
+git add file.txt
+git add  .gitignore
+git status
+git add file2.txt
+git status
+cd git-task-local
+git status
+touch .gitignore
+nano .gitignore
+y
+git status
+git add git log
+git log
+git add .gitignore
+git status
+nano  .gitignore
+git log
+cd git-task-local
+echo "First change" >> file.txt
+git add file.txt 
+git commit -m "First commit"
+git status
+echo "First change" >> File.txt
+git add File.txt 
+git commit -m "First commit"
+git status
+echo "Second change" >> file.txt
+git add file.txt
+git commit -m "Second commit" 
+echo "Third change" >> file.txt
+git add file.txt
+git commit -m "Third commit"
+git lod
+git log
+git checkout 253a1854
+git log
+git log --all
+git status
+git branch
+ls -la 
+cat file.txt
+git log
+git log --all
+cat file.txt
+git rev-parse HEAD
+git tag version-1.0
+git log --decorate
+git log --all
+git checkout <another_commit_id>
+git checkout  6105e82bfb0
+git log --all
+git checkout -b fix/1
+git log --oneline --all --graph --decorate
+git branch
+git status
+git tag
+git checkout main
+git log --all
+git log --oneline --all --graph --decorate
+git status
+ls -la
+cat file.txt
+git rev-parse HEAD
+git log --oneline --all --graph --decorate
+git log --all
+clear
+cd ~
+ls -la | grep .ssh
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+cd ~/.ssh
+ssh-keygen -t ed25519 -C teila6754@gmail.com
+"eval "$(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+cat ~/.ssh/id_ed25519.pub
+ssh-add /root/.ssh/id_ed25519
+cat /root/.ssh/id_ed25519.pub
+ssh -T git@gitlab.com
+cat /root/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
