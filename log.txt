@@ -1,0 +1,11 @@
+2024-01-15 10:30:15 INFO Server started on port 8080
+2024-01-15 10:30:16 WARNING Config file using defaults
+2024-01-15 10:30:17 ERROR Failed to connect to database
+2024-01-15 10:30:18 INFO Retrying database connection
+2024-01-15 10:30:19 ERROR Connection timeout
+2024-01-15 10:31:20 INFO User login: admin
+2024-01-15 10:31:21 WARNING High memory usage detected
+2024-01-15 10:31:22 ERROR Disk space low
+2024-01-15 10:31:23 INFO Scheduled backup started
+2024-01-15 10:31:24 ERROR Backup failed: insufficient space
+2024-01-15 10:32:25 INFO User logout: admin
