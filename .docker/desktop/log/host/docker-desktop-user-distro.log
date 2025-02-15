@@ -1,0 +1,183 @@
+-------------------------------------------------------------------------------->8
+[2025-02-07T01:49:44.909240067Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts
+[2025-02-07T01:49:44.923651944Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/משתמש/.docker/contexts
+-------------------------------------------------------------------------------->8
+[2025-02-07T01:49:45.567244847Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+[2025-02-07T01:49:46.281262297Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+[2025-02-07T01:49:46.992379881Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2025-02-07T01:49:47.444135640Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-07T01:49:47.445884239Z][docker-desktop-user-distro.ipc] 5d651f5b-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2025-02-07T01:49:47.445963695Z][docker-desktop-user-distro.apiproxy] Requested propagation is rprivate. Skipping mount-point propagation check for /var/run/docker.sock
+[2025-02-07T01:49:47.447937420Z][docker-desktop-user-distro.apiproxy] mounting /var/run/docker.sock to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-20.04/71329c4cc6e32171553fa81d044eb31d1a3aac52ba9376c4a99f4505c494cf5b
+[2025-02-07T01:49:47.449520602Z][docker-desktop-user-distro.ipc] 0a31f89b-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2025-02-07T01:49:47.450335662Z][docker-desktop-user-distro.ipc] 38c426ad-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2025-02-07T01:49:47.450388134Z][docker-desktop-user-distro.ipc] starting 85c4e58e-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2025-02-07T01:49:47.450770777Z][docker-desktop-user-distro.ipc] run a236c7f0-cross-distro for component Ubuntu-20.04 on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu-20.04.sock
+[2025-02-07T01:49:47.452284187Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-07T01:49:47.460787129Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2025-02-07T01:49:47.461249808Z][docker-desktop-user-distro] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2025-02-07T01:49:47.461365602Z][docker-desktop-user-distro] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2025-02-07T01:49:47.461791261Z][docker-desktop-user-distro] creating symlink for /usr/bin/compose-bridge
+[2025-02-07T01:49:47.461916657Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker
+[2025-02-07T01:49:47.462088017Z][docker-desktop-user-distro] creating symlink for /usr/bin/hub-tool
+[2025-02-07T01:49:47.463439355Z][docker-desktop-user-distro] creating symlink for /usr/local/bin/kubectl
+[2025-02-07T01:49:47.464102992Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-ai
+[2025-02-07T01:49:47.464220169Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2025-02-07T01:49:47.464290063Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2025-02-07T01:49:47.464373637Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-debug
+[2025-02-07T01:49:47.464467371Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-desktop
+[2025-02-07T01:49:47.464534884Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2025-02-07T01:49:47.464613778Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2025-02-07T01:49:47.464705779Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-feedback
+[2025-02-07T01:49:47.464806540Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2025-02-07T01:49:47.464899447Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2025-02-07T01:49:47.464964878Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2025-02-07T01:49:47.466367151Z][docker-desktop-user-distro] creating symlink for /usr/share/bash-completion/completions/docker
+[2025-02-07T01:49:47.467704800Z][docker-desktop-user-distro] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2025-02-07T01:49:47.469682606Z][docker-desktop-user-distro] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2025-02-07T01:49:47.469877550Z][docker-desktop-user-distro] cli tools successfully installed
+[2025-02-07T01:49:47.469919785Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-compose
+[2025-02-07T01:49:47.469988650Z][docker-desktop-user-distro] docker-desktop-user-distro proxy has started
+[2025-02-07T01:49:48.336591272Z][docker-desktop-user-distro.ipc] (4d36aec0-0) 5d651f5b-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-07T01:49:48.338027352Z][docker-desktop-user-distro.ipc][W] (4d36aec0-0) 5d651f5b-LinuxProxyCMD C<-S ConnectionClosed POST /idle/api-call-start (1.489818ms): Post "http://ipc/idle/api-call-start": dial unix /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock: connect: no such file or directory
+[2025-02-07T01:49:52.342359870Z][docker-desktop-user-distro.apiproxy][W] OnAPICallStart: Post "http://ipc/idle/api-call-start": dial unix /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock: connect: no such file or directory
+[2025-02-07T01:49:52.342452084Z][docker-desktop-user-distro.apiproxy] >> HEAD /_ping
+[2025-02-07T01:49:52.342482228Z][docker-desktop-user-distro.apiproxy][W] Proxy error handling "/_ping": dial unix /mnt/wsl/docker-desktop/shared-sockets/guest-services/docker.proxy.sock: operation was canceled
+[2025-02-07T01:49:52.343078469Z][docker-desktop-user-distro.ipc] (4d36aec0-5) 5d651f5b-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-07T01:49:52.343588291Z][docker-desktop-user-distro.ipc][W] (4d36aec0-5) 5d651f5b-LinuxProxyCMD C<-S ConnectionClosed POST /idle/api-call-stop (545.595µs): Post "http://ipc/idle/api-call-stop": dial unix /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock: connect: no such file or directory
+[2025-02-07T01:49:58.299256957Z][docker-desktop-user-distro.apiproxy][W] OnAPICallStop: Post "http://ipc/idle/api-call-stop": dial unix /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock: connect: no such file or directory
+[2025-02-07T01:49:58.877571413Z][docker-desktop-user-distro.ipc] (9e640edd-0-1) a236c7f0-cross-distro S<-C 0d51a4b8-cross-distro-router GET /check
+[2025-02-07T01:49:58.877670007Z][docker-desktop-user-distro.ipc] (9e640edd-0-1-1) 38c426ad-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2025-02-07T01:49:58.879165836Z][docker-desktop-user-distro.ipc] (4d36aec0-12) 5d651f5b-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-07T01:49:58.881986284Z][docker-desktop-user-distro.ipc] (4d36aec0-12) 5d651f5b-LinuxProxyCMD C<-S 6033a1c7-BackendAPI POST /idle/api-call-start (2.843786ms): OK
+[2025-02-07T01:49:58.882180677Z][docker-desktop-user-distro.ipc] (4d36aec0-13) 5d651f5b-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-07T01:49:58.885051576Z][docker-desktop-user-distro.ipc] (4d36aec0-13) 5d651f5b-LinuxProxyCMD C<-S 6033a1c7-BackendAPI POST /idle/api-call-stop (2.937455ms): OK
+[2025-02-07T01:49:58.885394798Z][docker-desktop-user-distro.ipc] (9e640edd-0-1-1) 38c426ad-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (7.729752ms): OK
+[2025-02-07T01:49:58.885567565Z][docker-desktop-user-distro.ipc] (9e640edd-0-1) a236c7f0-cross-distro S->C 0d51a4b8-cross-distro-router GET /check (7.997462ms): OK
+[2025-02-07T01:50:47.515244657Z][docker-desktop-user-distro.bugsnag] bugsnag/sessions/publisher.publish unable to deliver session: Post "https://sessions.bugsnag.com": tls: failed to verify certificate: x509: certificate signed by unknown authority
+-------------------------------------------------------------------------------->8
+[2025-02-08T16:24:24.096001558Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts
+[2025-02-08T16:24:24.104712082Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2025-02-08T16:24:25.116144120Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.aws, linkPath = <HOME>/.aws
+[2025-02-08T16:24:25.125439455Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/משתמש/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-02-08T16:24:26.485206787Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.azure, linkPath = <HOME>/.azure
+[2025-02-08T16:24:26.493395978Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/משתמש/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-02-08T16:24:27.777634342Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2025-02-08T16:24:28.787008738Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-08T16:24:28.794111817Z][docker-desktop-user-distro] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2025-02-08T16:24:28.794258463Z][docker-desktop-user-distro] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/modules-manager.sock to 0660
+[2025-02-08T16:24:28.794339150Z][docker-desktop-user-distro.ipc] d3ebf36d-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2025-02-08T16:24:28.794406628Z][docker-desktop-user-distro.apiproxy] Requested propagation is rprivate. Skipping mount-point propagation check for /var/run/docker.sock
+[2025-02-08T16:24:28.795195537Z][docker-desktop-user-distro.apiproxy] mounting /var/run/docker.sock to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-20.04/71329c4cc6e32171553fa81d044eb31d1a3aac52ba9376c4a99f4505c494cf5b
+[2025-02-08T16:24:28.796690049Z][docker-desktop-user-distro.ipc] f397cef0-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2025-02-08T16:24:28.798110750Z][docker-desktop-user-distro.ipc] 77db8725-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2025-02-08T16:24:28.800186957Z][docker-desktop-user-distro.ipc] starting 893ea1d7-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2025-02-08T16:24:28.800356332Z][docker-desktop-user-distro.ipc] run 127aa17a-cross-distro for component Ubuntu-20.04 on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu-20.04.sock
+[2025-02-08T16:24:28.801946785Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-08T16:24:28.810092492Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2025-02-08T16:24:28.810297401Z][docker-desktop-user-distro] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2025-02-08T16:24:28.810349538Z][docker-desktop-user-distro] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2025-02-08T16:24:28.810519870Z][docker-desktop-user-distro] creating symlink for /usr/bin/compose-bridge
+[2025-02-08T16:24:28.810654406Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker
+[2025-02-08T16:24:28.810756610Z][docker-desktop-user-distro] creating symlink for /usr/bin/hub-tool
+[2025-02-08T16:24:28.810991421Z][docker-desktop-user-distro] creating symlink for /usr/local/bin/kubectl
+[2025-02-08T16:24:28.811341595Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-ai
+[2025-02-08T16:24:28.811610417Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2025-02-08T16:24:28.811897508Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2025-02-08T16:24:28.812130562Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-debug
+[2025-02-08T16:24:28.812336083Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-desktop
+[2025-02-08T16:24:28.812540142Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2025-02-08T16:24:28.812840275Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2025-02-08T16:24:28.813096818Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-feedback
+[2025-02-08T16:24:28.813338329Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2025-02-08T16:24:28.813629085Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2025-02-08T16:24:28.813887996Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2025-02-08T16:24:28.815094870Z][docker-desktop-user-distro] creating symlink for /usr/share/bash-completion/completions/docker
+[2025-02-08T16:24:28.823882722Z][docker-desktop-user-distro] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2025-02-08T16:24:28.826554376Z][docker-desktop-user-distro] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2025-02-08T16:24:28.827238006Z][docker-desktop-user-distro] cli tools successfully installed
+[2025-02-08T16:24:28.828200020Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-compose
+[2025-02-08T16:24:28.828464068Z][docker-desktop-user-distro] docker-desktop-user-distro proxy has started
+[2025-02-08T16:24:29.880759313Z][docker-desktop-user-distro.ipc] (2fd8a79a-0-1) 127aa17a-cross-distro S<-C 07e74d69-cross-distro-router GET /check
+[2025-02-08T16:24:29.880969468Z][docker-desktop-user-distro.ipc] (2fd8a79a-0-1-1) 77db8725-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2025-02-08T16:24:29.919199862Z][docker-desktop-user-distro.ipc] (7bca4a34-0) d3ebf36d-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-08T16:24:29.926038476Z][docker-desktop-user-distro.ipc] (7bca4a34-0) d3ebf36d-LinuxProxyCMD C<-S 1ca188bf-BackendAPI POST /idle/api-call-start (6.961703ms): OK
+[2025-02-08T16:24:29.926260927Z][docker-desktop-user-distro.ipc] (7bca4a34-1) d3ebf36d-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-08T16:24:29.929867987Z][docker-desktop-user-distro.ipc] (7bca4a34-1) d3ebf36d-LinuxProxyCMD C<-S 1ca188bf-BackendAPI POST /idle/api-call-stop (3.669929ms): OK
+[2025-02-08T16:24:29.930320926Z][docker-desktop-user-distro.ipc] (2fd8a79a-0-1-1) 77db8725-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (49.357903ms): OK
+[2025-02-08T16:24:29.930495016Z][docker-desktop-user-distro.ipc] (2fd8a79a-0-1) 127aa17a-cross-distro S->C 07e74d69-cross-distro-router GET /check (49.746159ms): OK
+[2025-02-08T16:24:34.026990889Z][docker-desktop-user-distro.ipc] (7bca4a34-2) d3ebf36d-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-08T16:24:34.031634423Z][docker-desktop-user-distro.ipc] (7bca4a34-2) d3ebf36d-LinuxProxyCMD C<-S 1ca188bf-BackendAPI POST /idle/api-call-start (4.689931ms): OK
+[2025-02-08T16:24:34.032074659Z][docker-desktop-user-distro.apiproxy] >> HEAD /_ping
+[2025-02-08T16:24:34.035110659Z][docker-desktop-user-distro.apiproxy] << HEAD /_ping (3.038589ms)
+[2025-02-08T16:24:34.035582290Z][docker-desktop-user-distro.ipc] (7bca4a34-3) d3ebf36d-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-08T16:24:34.045261401Z][docker-desktop-user-distro.ipc] (7bca4a34-3) d3ebf36d-LinuxProxyCMD C<-S 1ca188bf-BackendAPI POST /idle/api-call-stop (9.707163ms): OK
+[2025-02-08T16:25:28.894201466Z][docker-desktop-user-distro.bugsnag] bugsnag/sessions/publisher.publish unable to deliver session: Post "https://sessions.bugsnag.com": tls: failed to verify certificate: x509: certificate signed by unknown authority
+-------------------------------------------------------------------------------->8
+[2025-02-09T10:48:37.244410192Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts
+[2025-02-09T10:48:37.258712574Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/משתמש/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2025-02-09T10:48:38.569777144Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.aws, linkPath = <HOME>/.aws
+[2025-02-09T10:48:38.582971168Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/משתמש/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-02-09T10:48:40.389841339Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.azure, linkPath = <HOME>/.azure
+[2025-02-09T10:48:40.401838210Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/משתמש/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2025-02-09T10:48:42.101887038Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/משתמש/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2025-02-09T10:48:43.231775725Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-09T10:48:43.243404142Z][docker-desktop-user-distro] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/extension-manager.sock to 0660
+[2025-02-09T10:48:43.244110845Z][docker-desktop-user-distro] changed the mode of the socket /mnt/wsl/docker-desktop/shared-sockets/host-services/modules-manager.sock to 0660
+[2025-02-09T10:48:43.244508170Z][docker-desktop-user-distro.ipc] a4e7f0ce-LinuxProxyCMD -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendAPI
+[2025-02-09T10:48:43.244729569Z][docker-desktop-user-distro.apiproxy] Requested propagation is rprivate. Skipping mount-point propagation check for /var/run/docker.sock
+[2025-02-09T10:48:43.245476612Z][docker-desktop-user-distro.apiproxy] mounting /var/run/docker.sock to /mnt/wsl/docker-desktop-bind-mounts/Ubuntu-20.04/71329c4cc6e32171553fa81d044eb31d1a3aac52ba9376c4a99f4505c494cf5b
+[2025-02-09T10:48:43.247504351Z][docker-desktop-user-distro.ipc] decd5546-WSLIntegrationProxy -> /mnt/wsl/docker-desktop/shared-sockets/host-services/backend.sock BackendCLI
+[2025-02-09T10:48:43.249322220Z][docker-desktop-user-distro.ipc] starting aaba2aea-dockerCLISock for component WSLIntegrationProxy on /var/run/docker-cli.sock
+[2025-02-09T10:48:43.249656192Z][docker-desktop-user-distro.ipc] 7637d5a9-CrossDistroService -> /var/run/docker.sock WSL2DistroProxy
+[2025-02-09T10:48:43.250066959Z][docker-desktop-user-distro.ipc] run 7169a825-cross-distro for component Ubuntu-20.04 on /mnt/wsl/docker-desktop/shared-sockets/guest-services/distro-services/ubuntu-20.04.sock
+[2025-02-09T10:48:43.263747637Z][docker-desktop-user-distro.version][W] failed to read component versions: open /opt/docker-desktop/componentsVersion.json: no such file or directory
+[2025-02-09T10:48:43.288000559Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-credential-desktop.exe
+[2025-02-09T10:48:43.288267421Z][docker-desktop-user-distro] cli tools directory /mnt/wsl/docker-desktop/cli-tools has contents
+[2025-02-09T10:48:43.288292905Z][docker-desktop-user-distro] populating cli tools from /mnt/wsl/docker-desktop/cli-tools
+[2025-02-09T10:48:43.288450787Z][docker-desktop-user-distro] creating symlink for /usr/bin/compose-bridge
+[2025-02-09T10:48:43.288591549Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker
+[2025-02-09T10:48:43.288667825Z][docker-desktop-user-distro] creating symlink for /usr/bin/hub-tool
+[2025-02-09T10:48:43.290231794Z][docker-desktop-user-distro] creating symlink for /usr/local/bin/kubectl
+[2025-02-09T10:48:43.294863292Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-ai
+[2025-02-09T10:48:43.295501604Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-buildx
+[2025-02-09T10:48:43.295904894Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-compose
+[2025-02-09T10:48:43.296164358Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-debug
+[2025-02-09T10:48:43.296412106Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-desktop
+[2025-02-09T10:48:43.296648807Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-dev
+[2025-02-09T10:48:43.296862177Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-extension
+[2025-02-09T10:48:43.297063477Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-feedback
+[2025-02-09T10:48:43.297326313Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-init
+[2025-02-09T10:48:43.297621630Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-sbom
+[2025-02-09T10:48:43.297997566Z][docker-desktop-user-distro] creating symlink for /usr/local/lib/docker/cli-plugins/docker-scout
+[2025-02-09T10:48:43.300638630Z][docker-desktop-user-distro] creating symlink for /usr/share/bash-completion/completions/docker
+[2025-02-09T10:48:43.302988451Z][docker-desktop-user-distro] creating symlink for /usr/share/fish/vendor_completions.d/docker.fish
+[2025-02-09T10:48:43.309321398Z][docker-desktop-user-distro] creating symlink for /usr/share/zsh/vendor-completions/_docker
+[2025-02-09T10:48:43.311101215Z][docker-desktop-user-distro] cli tools successfully installed
+[2025-02-09T10:48:43.312278606Z][docker-desktop-user-distro] creating symlink for /usr/bin/docker-compose
+[2025-02-09T10:48:43.312738680Z][docker-desktop-user-distro] docker-desktop-user-distro proxy has started
+[2025-02-09T10:48:44.337997857Z][docker-desktop-user-distro.ipc] (826fb6ef-0-1) 7169a825-cross-distro S<-C 48a4592b-cross-distro-router GET /check
+[2025-02-09T10:48:44.338207105Z][docker-desktop-user-distro.ipc] (826fb6ef-0-1-1) 7637d5a9-CrossDistroService C->S WSL2DistroProxy GET /desktop-diagnostics/ping
+[2025-02-09T10:48:44.340387778Z][docker-desktop-user-distro.ipc] (feff5fff-0) a4e7f0ce-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-09T10:48:44.349730282Z][docker-desktop-user-distro.ipc] (feff5fff-0) a4e7f0ce-LinuxProxyCMD C<-S abffd45d-BackendAPI POST /idle/api-call-start (9.410072ms): OK
+[2025-02-09T10:48:44.349901362Z][docker-desktop-user-distro.ipc] (feff5fff-1) a4e7f0ce-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"GET","urlPath":"/desktop-diagnostics/ping","userAgent":"..."}
+[2025-02-09T10:48:44.356002785Z][docker-desktop-user-distro.ipc] (feff5fff-1) a4e7f0ce-LinuxProxyCMD C<-S abffd45d-BackendAPI POST /idle/api-call-stop (6.138972ms): OK
+[2025-02-09T10:48:44.356293921Z][docker-desktop-user-distro.ipc] (826fb6ef-0-1-1) 7637d5a9-CrossDistroService C<-S UnknownServer GET /desktop-diagnostics/ping (18.098376ms): OK
+[2025-02-09T10:48:44.356775314Z][docker-desktop-user-distro.ipc] (826fb6ef-0-1) 7169a825-cross-distro S->C 48a4592b-cross-distro-router GET /check (18.771641ms): OK
+[2025-02-09T10:48:48.313233428Z][docker-desktop-user-distro.ipc] (feff5fff-2) a4e7f0ce-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-start: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-09T10:48:48.319280015Z][docker-desktop-user-distro.ipc] (feff5fff-2) a4e7f0ce-LinuxProxyCMD C<-S abffd45d-BackendAPI POST /idle/api-call-start (6.233474ms): OK
+[2025-02-09T10:48:48.319436556Z][docker-desktop-user-distro.apiproxy] >> HEAD /_ping
+[2025-02-09T10:48:48.323945221Z][docker-desktop-user-distro.apiproxy] << HEAD /_ping (4.497284ms)
+[2025-02-09T10:48:48.324273313Z][docker-desktop-user-distro.ipc] (feff5fff-3) a4e7f0ce-LinuxProxyCMD C->S BackendAPI POST /idle/api-call-stop: {"method":"HEAD","urlPath":"/_ping","userAgent":"..."}
+[2025-02-09T10:48:48.330139392Z][docker-desktop-user-distro.ipc] (feff5fff-3) a4e7f0ce-LinuxProxyCMD C<-S abffd45d-BackendAPI POST /idle/api-call-stop (5.898892ms): OK
